@@ -1,0 +1,207 @@
+<html>
+    <head>
+        <title>CarRental</title>
+        <link href="C:\Users\user\Desktop\Carrent\car.png" rel="icon"/>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="home.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#devNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Car Rental</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="devNav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-user"></span> SignUp
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-log-in"></span> Login
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>  
+        </nav>
+        <div id="search">
+            <div class="logo">
+                <span>D!</span>
+            </div>
+            <div id="heading">
+                Rent Your Dream Cars
+            </div>
+            <div class="dropdown">
+                <select>
+                    <option>---SELECT YOUR CITY---</option>
+                     <option>Delhi</option>
+                     <option>Haryana</option>
+                     <option>Uttar Pradesh</option>
+                </select>
+                <select id="restSelect">
+                    <option>---SELECT CAR---</option>
+                    <option>SUV</option>
+                    <option>Sedan</option>
+                </select>
+            </div>
+        </div>
+        <div id="quickSearch">
+            <span class="quickHeading">Quick Search</span>
+            <span class="quickSubHeading">Find Cars by Model type</span>
+            <div class="mainBox">
+                <div class="tileContainer"> 
+                    <div class="tileComponent1">
+                        <img src="car.png" alt="SUV"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="compHeading">
+                            <a href="../listing/listing.html">Vehicle Model-SUV</a>
+                        </div>
+                        <div class="compSubHeading">
+                            Vehicle Number- HR27 1234
+                            Capacity- 4
+                            Rent/Day- 1000 Rupees
+                        </div>
+                        <button class="btn btn-primary">Rent</button>
+                    </div>
+                    
+                </div>
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="images (3).jpg" alt="Sedan"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="compHeading">
+                            <a href="../listing/listing.html">Vehicle Model-Sedan</a>
+                        </div>
+                        <div class="compSubHeading">
+                            Vehicle Number- HR34 5432
+                            Capacity- 4
+                            Rent/Day- 1500 Rupees
+                        </div>
+                        <button class="btn btn-primary">Rent</button>
+                    </div> 
+                    
+                </div>
+                <div class="tileContainer"> 
+                    <div class="tileComponent1">
+                        <img src="download (2).jpg" alt="Sedan"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="compHeading">
+                            <a href="../listing/listing.html">Vehicle Model-Sedan</a>
+                        </div>
+                        <div class="compSubHeading">
+                            Vehicle Number- HR27 3934
+                            Capacity- 4
+                            Rent/Day- 1500 Rupees
+                        </div>
+                        <button class="btn btn-primary">Rent</button>
+                    </div>
+                    
+                </div>
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="images (1).jpg" alt="Sedan"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="compHeading">
+                            <a href="../listing/listing.html">Vehicle Model-Sedan</a>
+                        </div>
+                        <div class="compSubHeading">
+                            Vehicle Number- DL27 5692
+                            Capacity- 4
+                            Rent/Day- 1500 Rupees
+                        </div>
+                        <button class="btn btn-primary">Rent</button>
+                    </div> 
+                    
+                </div>
+                <div class="tileContainer"> 
+                    <div class="tileComponent1">
+                        <img src="images (2).jpg" alt="SUV"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="compHeading">
+                            <a href="../listing/listing.html">Vehicle Model-SUV</a>
+                        </div>
+                        <div class="compSubHeading">
+                            Vehicle Number- DL27 5692
+                            Capacity- 4
+                            Rent/Day- 1000 Rupees
+                        </div>
+                        <button class="btn btn-primary">Rent</button>
+                    </div>
+                </div>
+                <div class="tileContainer"> 
+                    <div class="tileComponent1">
+                        <img src="images (3).jpg" alt="SUV"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="compHeading">
+                            <a href="../listing/listing.html">Vehicle Model-SUV</a>
+                        </div>
+                        <div class="compSubHeading">
+                            Vehicle Number- DL27 1124
+                            Capacity- 4
+                            Rent/Day- 1000 Rupees
+                        </div>
+                        <button class="btn btn-primary">Rent</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <hr/>
+            <p class="footText">&copy; Car Rental 2023</p>
+            <hr/>
+            <div class="footDiv">
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footDiv">
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footDiv noBorder">
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div id="social">
+                <a href="">
+                    <img src="https://i.ibb.co/bsXv4bf/facebook.png" alt="fblogo" class="socialLogo"/>
+                </a>
+                <a href="">
+                    <img src="https://i.ibb.co/8c9LJP1/insta.png" alt="fblogo" class="socialLogo"/>
+                </a>
+                <a href="">
+                    <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="fblogo" class="socialLogo"/>
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
